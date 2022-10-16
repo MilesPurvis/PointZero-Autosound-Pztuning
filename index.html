@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <title>Pztuning.ca</title>
+  </head>
+
+  <body>
+    <header class="pz-heading">
+      <h1><a href="index.html">Pztuning.ca</a></h1>
+      <nav>
+        <a href="mailto:pzsquared@hotmail.com?subject=General inquiry"
+          >Contact</a
+        >
+        <a href="#">Services</a>
+        <a href="./Pages/Partners.html">Partners</a>
+        <a href="#">Gallary</a>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <form
+          action="https://formsubmit.co/milespurvis11@gmail.com"
+          method="post"
+        >
+          <p>Contact Us</p>
+          <div id="email-form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="fullName"
+              name="Senders&nbsp;Name"
+              placeholder=" First & Last Name"
+              required
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="Customer&nbsp;Email"
+              id="email"
+              placeholder=" youremail@example.ca"
+              required
+            />
+            <label for="make"> Car Make:</label>
+            <input
+              type="text"
+              name="Car&nbsp;Make"
+              id="car-make"
+              placeholder=" eg. Honda"
+              required
+            />
+            <label for="model">Car Model:</label>
+            <input
+              type="text"
+              name="Car&nbsp;Model"
+              id="car-model"
+              placeholder=" eg. Civic Si"
+              required
+            />
+            <label for="model-year">Model Year:</label>
+            <select name="Model&nbsp;Year" id="date-dropdown" required></select>
+            <script src="/app.js" id="date-dropdown"></script>
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              name="Subject"
+              id="subject"
+              placeholder=" Enter Subject"
+              required
+            />
+            <label for="emailbox">Message:</label>
+            <textarea name="Message" id="email-box"> </textarea>
+
+            <input type="submit" value="Send" id="button" />
+          </div>
+        </form>
+        <div class="img-wrapper">
+          <p>We moved to: 29 Northfield Dr W, Waterloo, ON N2V 2G2</p>
+          <img id="rsx-img" src="./images/vibrant_rsx.jpg" alt="vibrant_rsx" />
+          <!-- <img id="rsx-img" src="./images/V1 Civic.jpg" alt="v1-civic" /> -->
+        </div>
+        <div class="mapouter">
+          <p>Find us on the map!</p>
+          <div class="gmap-canvas">
+            <iframe
+              id="gmap-canvas"
+              src="https://maps.google.com/maps?q=point%20zero%20autosound&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-content">
+        <h4>What is Time Attack?</h4>
+        <a href="https://www.motortrend.com/features/what-is-time-attack/"
+          >Motortrend: What Is Time Attack</a
+        >
+        <blockquote>
+          "Time attack racing is a type of motorsport where the racers compete
+          for the best lap time. Each vehicle is timed through circuits of the
+          track. The racers make a preliminary circuit, then run the timed laps,
+          and then finish with a cool-down lap. Time attack and time trial
+          events differ by competition format and rules. Time attack has a
+          limited number of laps, time trial has open sessions"
+        </blockquote>
+        <iframe
+          src="https://www.youtube.com/embed/eZMufMCJfcU"
+          title="TIME ATTACK Racing EXPLAINED!"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/pztuningwill/">
+              <i class="fa-brands fa-instagram"></i> | pztuningwill</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/pztuning_ca/">
+              <i class="fa-brands fa-instagram"></i> | pztuning.ca</a
+            >
+          </li>
+        </ul>
+
+        <p>&copy; 2022-Point Zero Autosound</p>
+        <ul>
+          <li><b>Pztuning / Point Zero Autosound:</b></li>
+          <li>
+            <address>
+              29 Northfield Dr W, <br />
+              Waterloo, ON N2V 2G2
+            </address>
+          </li>
+          <li>
+            <a href="tel:5198853394"
+              ><i class="fa-solid fa-phone"></i> (519) 885-3394</a
+            >
+          </li>
+          <li>
+            <a href="mailto:pzsquared@hotmail.com"
+              ><i class="fa-solid fa-envelope"></i> | pzsquared@hotmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

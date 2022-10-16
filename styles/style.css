@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 0.4s border-color;
+}
+
+input:hover {
+  border: 1px solid white;
+}
+textarea {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 0.4s border-color;
+}
+
+textarea:hover {
+  border: 1px solid white;
+}
+
+select {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 0.2s border-color;
+  color: gray;
+}
+
+select:hover {
+  border: 1px solid white;
+}
+
+#button {
+  background-color: rgb(44, 83, 255);
+  color: whitesmoke;
+  font-weight: bold;
+}
+#button:hover {
+  border: 1px solid rgb(44, 83, 255);
+}
+a {
+  transition: 0.4s color;
+}
+a:hover {
+  color: rgb(44, 83, 255);
+}
+
+iframe {
+  border: 0;
+  border-radius: 8px;
+}
+
+body {
+  background-image: linear-gradient(180deg, rgb(52, 52, 52), rgb(58, 58, 58));
+}
+
+.pz-heading {
+  background-image: linear-gradient(180deg, rgb(39, 39, 39), rgb(58, 58, 58));
+  color: whitesmoke;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.5em 12em;
+  border-bottom: 2px solid white;
+}
+
+.pz-heading a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 1em;
+}
+
+.wrapper {
+  display: flex;
+  background-image: linear-gradient(180deg, rgb(58, 58, 58), rgb(52, 52, 52));
+  justify-content: space-between;
+  color: whitesmoke;
+  padding: 0 10rem 10rem 10rem;
+}
+
+form p {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.5em;
+}
+
+form {
+  align-self: flex-end;
+}
+
+#email-form {
+  width: 20rem;
+  height: 30rem;
+  margin: 0 2em 2em 2em;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#email-box {
+  width: auto;
+  height: 80%;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.img-wrapper {
+  text-align: center;
+  align-self: flex-end;
+}
+
+.img-wrapper p {
+  font-size: 1.5em;
+}
+#rsx-img {
+  height: 24em;
+  margin: 0 2.5em 2.5em 2.5em;
+  border-radius: 0.5em;
+  align-self: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapouter {
+  margin: 0 2em 2em 2em;
+  align-self: flex-end;
+}
+
+.mapouter p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+.gmap-canvas {
+  max-width: 25em;
+  max-height: 25em;
+  overflow: hidden;
+  background: none !important;
+  border-radius: 8px;
+}
+
+#gmap-canvas {
+  width: 500px;
+  height: 500px;
+}
+
+.home-content {
+  color: whitesmoke;
+  text-align: center;
+  padding: 2em 30em;
+}
+
+.home-content iframe {
+  width: 32em;
+  height: 18em;
+}
+
+.home-content a {
+  color: whitesmoke;
+}
+
+.home-content blockquote {
+  padding: 2em;
+}
+
+footer {
+  background-image: linear-gradient(to right, rgb(58, 58, 58), rgb(39, 39, 39));
+  color: whitesmoke;
+  padding: 2em;
+  border-top: 2px solid white;
+}
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 12em;
+}
+
+@media only screen and (max-width: 1400px) {
+  .pz-heading h1 {
+    font-size: 5em;
+  }
+  .pz-heading {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pz-heading a {
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  .img-wrapper {
+    align-self: center;
+    order: -1;
+  }
+
+  .mapouter {
+    margin-top: 2em;
+    width: 20em;
+    align-self: center;
+  }
+
+  .mapouter p {
+    margin: 1em;
+  }
+
+  .gmap-canvas {
+    align-self: flex-start;
+  }
+
+  #gmap-canvas {
+    width: 32em;
+    height: 30em;
+    align-self: center;
+  }
+
+  #email-form {
+    width: 32em;
+    height: 30em;
+    padding: 1.5em;
+    display: flex;
+  }
+  form {
+    align-self: center;
+  }
+  footer {
+    font-size: small;
+  }
+  .home-content {
+    align-self: center;
+    font-size: small;
+    padding: 5em;
+  }
+
+  .home-content iframe {
+    width: 48rem;
+    height: 27rem;
+  }
+}
