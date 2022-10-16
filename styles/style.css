@@ -263,3 +263,10 @@ footer div {
     height: 27rem;
   }
 }
+
+.partners p {
+  font-size: larger;
+  text-align: center;
+  color: white;
+  padding: 20rem;
+}
