@@ -58,7 +58,7 @@ a {
   transition: 0.4s color;
 }
 a:hover {
-  color: rgba(44, 83, 255, 0.13);
+  color: rgb(44, 83, 255);
 }
 
 iframe {
@@ -90,6 +90,7 @@ body {
   text-decoration: none;
   color: whitesmoke;
   margin-left: 1em;
+  transition: 0.7s color;
 }
 
 .wrapper {
@@ -145,7 +146,6 @@ form {
   height: 24em;
   margin: 0 2.5em 2.5em 2.5em;
   border-radius: 20px;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -292,7 +292,7 @@ footer div {
 }
 
 .partners {
-  background-color: rgba(26, 26, 26, 0.7);
+  background-color: rgba(26, 26, 26, 0.8);
   margin: 4em;
   width: 80%;
   align-self: center;
@@ -331,7 +331,7 @@ footer div {
 }
 
 .program-partners {
-  background-color: rgba(26, 26, 26, 0.9);
+  background-color: rgba(26, 26, 26, 0.8);
   width: 80%;
   text-align: center;
   align-self: center;
