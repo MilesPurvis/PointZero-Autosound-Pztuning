@@ -96,10 +96,12 @@ body {
 .wrapper {
   display: flex;
   background: white url("../images/background5.jpg") left fixed;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   color: whitesmoke;
-  padding: 5em;
+  padding: 4em;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 form p {
@@ -250,7 +252,7 @@ footer div {
   .img-wrapper {
     align-self: center;
     order: -1;
-    margin: 1em;
+    margin: 5em;
   }
 
   .mapouter {
@@ -264,8 +266,8 @@ footer div {
   }
 
   #email-form {
-    width: 32em;
-    height: 30em;
+    width: 20em;
+    height: 29em;
     padding: 1.5em;
     display: flex;
   }
