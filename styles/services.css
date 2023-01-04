@@ -1,0 +1,19 @@
+main ul {
+  list-style: none;
+  line-height: 1.6;
+  margin: 1em;
+  padding: 1em;
+}
+
+.service-list {
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.service-list a {
+  color: #fd332fc9;
+}
+
+.service-list a:hover {
+  color: #fcfcfc;
+}

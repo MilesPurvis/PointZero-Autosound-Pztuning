@@ -1,0 +1,32 @@
+.program-partners img {
+  background-color: rgba(240, 255, 255, 0.35);
+  width: 50%;
+  height: 20%;
+  min-height: 100px;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 100px;
+  margin: 1em;
+  transition: 0.4s box-shadow, border;
+  border-radius: 20px;
+  padding: 1em;
+  object-fit: contain;
+}
+
+.program-partners img:hover {
+  box-shadow: 0.5px 0.5px 3px 3px rgb(44, 83, 255);
+}
+
+.program-partners {
+  background-color: rgba(26, 26, 26, 0.8);
+  text-align: center;
+  padding: 2em;
+  margin: 2em;
+  max-width: 1400px;
+  border-radius: 20px;
+}
+
+.partners-page {
+  display: flex;
+  justify-content: center;
+}
